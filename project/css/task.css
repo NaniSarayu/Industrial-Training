@@ -1,0 +1,14 @@
+div{
+    height: 600px;
+    width: 550px;
+    background-color: blueviolet;
+}
+.a{
+    height: 150px;
+    width: 100px;
+    float: left;
+    position: relative;
+    top: 50px;
+    margin-left: 30px;
+    background-color: white;
+}
