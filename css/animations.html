@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(207, 18, 137);
+            float: left;
+            margin-right: 20px;
+            border: 1px solid black;
+            border-radius: 200px;
+            animation-name: testing;
+            animation-duration: 3s;
+            animation-iteration-count:3 ;
+            animation-fill-mode:forwards ;
+            animation-direction: reverse;
+            animation-duration: 3s;
+            position: relative;
+        }
+        @keyframes testing{
+           /* from{
+                background-color: blue;
+            }
+            to{
+                background-color: yellow;
+                width: 300px;
+            }*/
+            0%{
+                background-color: aqua;top: 0px;left:0px;
+            }
+            25%{
+                background-color: blue;top: 0px;left: 500px;
+            }
+            50%{
+                background-color: brown;top: 300px;left: 0px;
+            }
+            75%{
+                background-color: blueviolet;top: 0px;left: 600px;
+            }
+            100%{
+                background-color: red;top: 0px;left: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <center><h1>Animations in CSS</h1></center>
+    <hr>
+    <div class="a"></div>
+    
+</body>
+</html>

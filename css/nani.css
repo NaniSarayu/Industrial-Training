@@ -1,0 +1,160 @@
+.a{
+    height: 600px;
+    width: 900px;
+    background-color:lightskyblue;
+}
+.b{
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+}
+.b1{
+    color: aliceblue;
+    position: relative;
+    top: 30px;
+}
+.c{
+    margin-left: 20px;
+    height: 300px;
+    width: 200px;
+  
+    float: left;
+    position: relative;
+    top: 10px;
+}
+input{
+    height: 30px;
+    width: 200px;
+}
+.button{
+    height: 30px;
+    width: 200px;
+    background-color: blue;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    top: 20px;
+    
+}
+.c1{
+    height: 40px;
+    width: 30px;
+    background-color: lightskyblue;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    left: 80px;
+}
+.c2{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(120, 116, 116);
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+   
+}
+.c3{
+    color: aliceblue;
+    position: relative;
+    top: 5px;
+   
+}
+.d{
+    height: 150px;
+    width: 620px;
+   float: left;
+   background-color: blue;
+   margin-top: 20px;
+   margin-left: 40px;
+}
+.d2{
+    color: aliceblue;
+    margin-left: 20px;
+}
+.d4{
+    color: whitesmoke; 
+    margin-left: 20px;
+    position: relative;
+    bottom: 10px;
+}
+.d6{
+    color: whitesmoke; 
+    margin-left: 20px;
+    position: relative;
+    bottom: 20px;
+    
+}
+.d8{
+    color:whitesmoke; 
+    margin-left: 20px;
+    position: relative;
+    bottom: 30px;
+   
+}
+.n{
+    height: 80px;
+    position: relative;
+    right: 0px;
+    left: 300px;
+    top: -150px;
+    
+}
+.p{
+    display: inline;
+    position: relative;
+    right: 0px;
+    left: 200px;
+    top: -130px;
+    color: aliceblue;
+    
+}
+.e{
+    height: 300px;
+    width: 650px;
+    margin-left: 260px;
+    float: left;
+    position: relative;
+    top: -120px;
+}
+.e1{
+    height: 210px;
+    width: 150px;
+    background-color: rgb(120, 116, 116);
+    float: left;
+}
+.e2{
+    height: 210px;
+    width: 150px;
+    background-color: rgb(120, 116, 116);
+    float: left;
+    margin-left: 10px;
+}
+.e3{
+    height: 210px;
+    width: 150px;
+    background-color: rgb(120, 116, 116);
+    float: left;
+    margin-left: 10px;
+}
+.e4{
+    height: 210px;
+    width: 150px;
+    background-color: rgb(120, 116, 116);
+    float: left;
+    margin-left: 10px;
+}
+.e5{
+    color: aliceblue;
+    margin-left: 20px;
+}
+.r{
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    
+}
+.s{
+    color: aliceblue;
+    margin-left: 10px;
+}
