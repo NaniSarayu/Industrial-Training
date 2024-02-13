@@ -9,43 +9,106 @@
             background-color: lightblue;
             display: inline;
             float: center;
+            position: relative;
+            right: 60px;
         }
         input{
             float: right;
         }
-        div{
-            height: 400px;
+        .c{
+            height: 300px;
             width: 600px;
             border: 5px solid black ;
             padding: 10px;
             background-color: gray;
             margin: 30px;
-            float: right;
+            
+            float: left;
             display: inline;
+            position: relative;
+            left: 10px;
             
         }
         .a{
-            height: 400px;
-            width: 350px;
-            float: right;
+            height: 600px;
+            width: 450px;
+            float: left;
+            background-color: grey;
             margin-right: 30px;
             padding: 20px;
             position: relative;
             left: 30px;
+            top: 30px;
 
         }
         .b{
             background-color: gray;
-            height: 400px;
-            width: 800px;
+            height: 300px;
+            width: 550px;
             padding: 40px;
             margin: 40px;
             float: right;
+            position: relative;
+            right: 270px;
+            top: -60px;
 
         }
-        
-
-       
+        progress{
+            position: relative;
+            top: -50px;
+        }
+        h5{
+            position: relative;
+            top: -40px;
+        }
+       h3{
+        position: relative;
+        top: -38px;
+       }
+       .a1{
+        position: relative;
+        top: -50px;
+       }
+       .a2{
+        position: relative;
+        top: -60px;
+       }
+       .a3{
+        position: relative;
+        top: -65px;
+       }
+       .a4{
+        position: relative;
+        top: -75px;
+       }
+      .a5{
+        position: relative;
+        top: -90px;
+      }
+      .a6{
+        position: relative;
+        top: -75px;
+      }
+      .a7{
+        position: relative;
+        top: -85px;
+      }
+      .a8{
+        position: relative;
+        top: -100px;
+      }
+      .b1{
+        position: relative;
+        right: 100px;
+      }
+      .b2{
+        position: relative;
+        right: 30px;
+      }
+      .n{
+        height: 50px;
+        width: 50px;
+      }
     </style>
 </head>
 <body>
@@ -58,64 +121,65 @@
         </select></button>
     </center>
     <hr>
-    <div>
-        <form>
-            <label>Full Name</label>
-            <input type="text" placeholder="john Doe">
-            <br><br><br>
-            <label>Email</label>
-            <input type="email"  placeholder="john@example.com">
-            <br><br><br>
-            <label>Phone</label>
-            <input type="number" placeholder="(239) 816-9029">
-            <br><br><br>
-            <label>Mobile</label>
-            <input type="number" placeholder="(320) 380-4539">
-            <br><br><br>
-            <label>Adress</label>
-            <input type="text"  placeholder="Bay Area,San Francisco,CA">
-            <br><br>
-            <center>
-                <button>save changes</button><br><br>
-            </center>
-        </form>
-    </div>
     <div class="a">
         <center>
-            <img src=""
-            <b>john Doe<b>
+            <img src="/icons/nani.jpg" class="n"><br>
+            <b>SP Rishi<b>
             <p>Full Stack Developer</p>
             <P>Bay Area,San Francisco,CA</p>
             <button>Follow</button>
             <button>Message</button>   
         </center><hr>
         <label>Website</label>
-        <input type="" placeholder="https://bootdey.com">
+        <input type="" class="b2" placeholder="https://bootdey.com">
         <hr>
         <label>Github</label>
-        <input type="" placeholder="bootdey">
+        <input type="" class="b2"placeholder="bootdey">
         <hr>
         <label>Twitter</label>
-        <input type="" placeholder="@bootdey">
+        <input type=""class="b2" placeholder="@bootdey">
         <hr>
         <label>instagram</label>
-        <input type="" placeholder="bootdey">
+        <input type="" class="b2"placeholder="bootdey">
         <hr>
         <label>Facebook</label>
-        <input type="" placeholder="bootdey">
+        <input type="" class="b2" placeholder="bootdey">
     </div>
+    <div class="c">
+        <form>
+            <label>Full Name</label>
+            <input type="text" class="b1" placeholder="john Doe">
+            <br><br><br>
+            <label>Email</label>
+            <input type="email" class="b1"  placeholder="john@example.com">
+            <br><br><br>
+            <label>Phone</label>
+            <input type="number" class="b1" placeholder="(239) 816-9029">
+            <br><br><br>
+            <label>Mobile</label>
+            <input type="number" class="b1" placeholder="(320) 380-4539">
+            <br><br><br>
+            <label>Adress</label>
+            <input type="text" class="b1" placeholder="Bay Area,San Francisco,CA">
+            <br><br>
+            <center>
+                <button>save changes</button><br><br>
+            </center>
+        </form>
+    </div>
+   
     <div class="b">
         <h3>Project Status</h3>
         <h5>Web Design</h5>
         <progress value="80" max="100"></progress>
-        <h5>Website Markup</h5>
-        <progress value="70" max="100"></progress>
-        <h5>One Page</h5>
-        <progress value="90" max="100"></progress>
-        <h5>Mobile Template</h5>
-        <progress value="50" max="100"></progress>
-        <h5>Backend API</h5>
-        <progress value="65" max="100"></progress>
+        <h5 class="a1">Website Markup</h5>
+        <progress value="70" max="100" class="a2"></progress>
+        <h5 class="a3">One Page</h5>
+        <progress value="90" max="100" class="a6"></progress>
+        <h5 class="a4">Mobile Template</h5>
+        <progress value="50" max="100" class="a7"></progress>
+        <h5 class="a5">Backend API</h5>
+        <progress value="65" max="100" class="a8"></progress>
 
 
     </div>

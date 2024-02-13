@@ -1,0 +1,35 @@
+.a{
+    height: 50px;
+    background-color: blue;
+}
+h3{
+    position: relative;
+    top: -5px;
+    left: 50px;
+    float: left;
+}
+button{
+    position: relative;
+    float: left;
+    top: 15px;
+    right: -900px;
+}
+.b{
+    height: 300px;
+    background-color: lightseagreen;
+    
+}
+.n1{
+    position: relative;
+    top: 80px;
+    right: -500px;
+}
+.n2{
+    position: relative;
+    top: 80px;
+    right:-600px
+}
+n3{
+    position: relative;
+    top: 00px;
+}
