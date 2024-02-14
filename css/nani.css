@@ -43,7 +43,7 @@ input{
     text-align: center;
     position: relative;
     bottom: 20px;
-    left: 80px;
+    left: 0px;
 }
 .c2{
     height: 30px;
@@ -70,24 +70,24 @@ input{
 }
 .d2{
     color: aliceblue;
-    margin-left: 20px;
+    margin-right: 180px;
 }
 .d4{
     color: whitesmoke; 
-    margin-left: 20px;
+    margin-right: 160px;
     position: relative;
     bottom: 10px;
 }
 .d6{
     color: whitesmoke; 
-    margin-left: 20px;
+    margin-right: 180;
     position: relative;
     bottom: 20px;
     
 }
 .d8{
     color:whitesmoke; 
-    margin-left: 20px;
+    margin-right: 180px;
     position: relative;
     bottom: 30px;
    
@@ -96,7 +96,7 @@ input{
     height: 80px;
     position: relative;
     right: 0px;
-    left: 300px;
+    left: 250px;
     top: -150px;
     
 }
@@ -104,7 +104,7 @@ input{
     display: inline;
     position: relative;
     right: 0px;
-    left: 200px;
+    left: 160px;
     top: -130px;
     color: aliceblue;
     
