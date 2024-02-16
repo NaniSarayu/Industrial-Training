@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         const d=new Date();
+        document.write(d+"<br>")
+        document.write("current year is:"+d.getFullYear()+"<br>");
+        document.write("current month is:"+(d.getMonth()+1)+"<br>");
+        document.write("current date is:"+d.getDate()+"<br>");
+        const weekdays=["sunday",'monday','Tuesaday','wednessday','Thursday','Friday','Saturday'];
+        let day=weekdays[d.getDay()];
+        document.write("current day is:"+day+"<br>");    
+        const months=['Jan','Feb','March','April','May','June','July','Aug',"Sep",'Oct','Nov','Dec'];
+        let month=months[d.getMonth()];
+        document.write('current Month is:'+month+"<br>");
+        document.write("current hour is:"+d.getHours()+"<br>");
+        document.write("current minute is:"+d.getMinutes()+"<br>");
+        document.write("current second is:"+d.getSeconds()+"<br>");
+       
+    </script>
+    
+</body>
+</html>
